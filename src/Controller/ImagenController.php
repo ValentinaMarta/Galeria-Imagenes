@@ -17,7 +17,7 @@ use Doctrine\Persistence\ManagerRegistry;
 #[Route('/')]
 class ImagenController extends AbstractController
 {
-    #[Route('/imagen', name: 'app_imagen_index', methods: ['GET'])]
+    #[Route('/', name: 'app_imagen_index', methods: ['GET'])]
     public function index(ImagenRepository $imagenRepository): Response
     {
         return $this->render('imagen/index.html.twig', [

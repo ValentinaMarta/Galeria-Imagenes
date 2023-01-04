@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC:wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500 & display=swap');
+body{
+    background-color: white;
+}
+.caja{
+	
+	width: 620px;
+	height: 400px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;	
+	align-items: baseline;
+	margin: 10px auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 15px;	
+}
+.container{
+	max-width: 80%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;	
+	align-items: baseline;
+	margin: 10px auto;
+}
+.cajab{
+	
+	max-width: 80%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;	
+	align-items: baseline;
+	margin: 10px auto;
+    padding-bottom: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(145, 19, 107);
+    padding: 20px;
+}
+
+img{
+	width: 580px;
+	height: 300px;
+}
+.btn {
+	background: pink;
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border: none;
+	border-radius: 15px;
+	-webkit-box-shadow: 6px 5px 24px #666666;
+	-moz-box-shadow: 6px 5px 24px #666666;
+	box-shadow: 6px 5px 24px #666666;
+	font-family: 'Amatic Sc';
+	color: rgb(56, 55, 55);
+	font-size: 20px;
+    padding: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	margin: 50px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: #fafafa;
+	background: magenta;
+	background-image: -webkit-linear-gradient(left, gray, pink);
+	background-image: -moz-linear-gradient(left, gray, pink);
+	background-image: -ms-linear-gradient(left, gray, pink);
+	background-image: -o-linear-gradient(left, gray, pink);
+	background-image: linear-gradient(to right, gray, pink);
+	text-decoration: none;
+}
+.navbar{
+    height:150px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+
+   
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-left:2%;
+}
