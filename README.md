@@ -45,7 +45,7 @@ ______
 ![](./public/img/dos.png)
 
 ### Ver :eyes: 
-![](./public/img/cinco3.png)
+![](./public/img/cinco.png)
 
 ### Modificar :writing_hand:
 ![](./public/img/tres.png)
@@ -55,3 +55,10 @@ ______
 
 ### Responsive :iphone:
 ![](./public/img/responsive.png)
+
+## DRY
+Los archivos html.twig herredan del archivo base .html.twig para que asi no se repita código innecesario
+
+## TDD
+
+Se han realizado test unitarios que comprueban los metodos set y get de la clase Imagen
