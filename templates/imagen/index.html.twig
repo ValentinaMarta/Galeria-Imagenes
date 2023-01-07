@@ -3,13 +3,13 @@
 {% block title %}Mis imagenes{% endblock %}
 
 {% block body %}
-                    <nav class="navbar" >
-                                    <a class="logo" href=""><img class="logo"src="../img/icono1.png"  ></a>
-                                    <a class="logo" href=""><img class="logo"src="../img/icono1.png"  ></a>
-                                    <a class="logo" href=""><img class="logo"src="../img/icono1.png"  ></a>
+                    <div class="navbar" >
+                                    <a class="logo" ><img class="logo"src="../img/icono1.png"  ></a>
+                                    <a class="logo" ><img class="logo"src="../img/icono1.png"  ></a>
+                                    <a class="logo" ><img class="logo"src="../img/icono1.png"  ></a>
                                     <a class="btn" href="{{ path('app_imagen_new') }}">Crear nuevo registro </a>
-                    </nav>
-
+                    </div>
+ <h1>Mis imágenes favoritas</h1>
         {% for imagen in imagens %}
 
                     <div class="caja">
@@ -24,7 +24,7 @@
                     </div>
         {% else %}
             
-                    <div>no se han encontrado archivos</div
+                    <div>No se han encontrado archivos</div
            
         {% endfor %}
 

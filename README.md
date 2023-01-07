@@ -1,2 +1,2 @@
-# Galeria-Imagenes
-Gestion de mis imagenes favoritas
+# Galeria-Imágenes
+Gestión de mis imágenes favoritas
