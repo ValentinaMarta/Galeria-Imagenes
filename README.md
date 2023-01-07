@@ -57,7 +57,7 @@ ______
 ![](./public/img/responsive.png)
 
 ## DRY
-Los archivos html.twig herredan del archivo base .html.twig para que asi no se repita código innecesario.
+Los archivos ***html.twig*** herredan del archivo base ***base.html.twig*** para que asi no se repita código innecesario.
 
 ## TDD
 

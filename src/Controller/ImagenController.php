@@ -36,11 +36,11 @@ class ImagenController extends AbstractController
             $foto= $form->get('foto')->getData();
             if ($foto) {
                 $originalFilename = pathinfo($foto->getClientOriginalName(), PATHINFO_FILENAME);
-                // this is needed to safely include the file name as part of the URL
+                // Esto es necesario para incluir de forma segura el nombre del archivo como parte de la URL
                 $safeFilename = $slugger->slug($originalFilename);
                 $newFilename = $safeFilename.'-'.uniqid().'.'.$foto->guessExtension();
 
-                // Move the file to the directory where brochures are stored
+                // Mueve el archivo al directorio donde se almacenan las fotos.
                 try {
                     $foto->move(
                         $this->getParameter('fotos_directory'),
