@@ -57,8 +57,9 @@ ______
 ![](./public/img/responsive.png)
 
 ## DRY
-Los archivos html.twig herredan del archivo base .html.twig para que asi no se repita código innecesario
+Los archivos html.twig herredan del archivo base .html.twig para que asi no se repita código innecesario.
 
 ## TDD
 
 Se han realizado test unitarios que comprueban los metodos set y get de la clase Imagen
+![](./public/img/test.png)
