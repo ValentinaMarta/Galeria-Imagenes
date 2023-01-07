@@ -34,3 +34,24 @@ ______
 - PHP 8.1
 - PHPUNIT
 - XAMPP
+
+## Vistas 
+
+### Página principal
+
+![](./public/img/uno.png)
+
+### Añadir :page_facing_up:
+![](./public/img/dos.png)
+
+### Ver :eyes: 
+![](./public/img/editar_post.png)
+
+### Modificar :writing_hand:
+![](./public/img/tres.png)
+
+### Borrar :x:
+![](./public/img/cuatro.png)
+
+### Responsive :iphone:
+![](./public/img/responsive.png)
