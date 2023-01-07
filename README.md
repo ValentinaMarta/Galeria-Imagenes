@@ -16,7 +16,7 @@ Este comando crea la carpeta vendor que contiene bundles y códigos de terceros.
 ### Crear o actualizar la base de datos
 - Debemos tener MySql de XAMPP encendido.
 - Debemos ir al archivo ***.env***y modificar la ruta de conexión con la bases de datos
-*** DATABASE_URL="mysql://app:!ChangeMe!@127.0.0.1:3306/app?serverVersion=8&charset=utf8mb4" *** poniendo nuestro usuario contraseña y el nombre de la bases de datos que vamos a utilizar(en este caso se ha llamado `fotos` pero podriamos darle cualquier nombre)
+***DATABASE_URL="mysql://app:!ChangeMe!@127.0.0.1:3306/app?serverVersion=8&charset=utf8mb4"*** poniendo nuestro usuario contraseña y el nombre de la bases de datos que vamos a utilizar(en este caso se ha llamado `fotos` pero podriamos darle cualquier nombre)
 ### `php bin/console doctrine:database:create`
 ### `php bin/console doctrine:schema:update --force`
 
