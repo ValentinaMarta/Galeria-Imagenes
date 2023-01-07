@@ -45,7 +45,7 @@ ______
 ![](./public/img/dos.png)
 
 ### Ver :eyes: 
-![](./public/img/cinco2.png)
+![](./public/img/cinco.png)
 
 ### Modificar :writing_hand:
 ![](./public/img/tres.png)
