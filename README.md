@@ -30,7 +30,7 @@ ______
 - HTML    
 - CSS
 - JS
-- SYMFONY 6.2
+- SYMFONY 6.2.4
 - PHP 8.1
 - PHPUNIT
 - XAMPP
