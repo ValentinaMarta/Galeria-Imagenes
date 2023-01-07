@@ -5,10 +5,10 @@
 
 ## Gestión de mis imágenes favoritas:
 ### `Añadir` :page_facing_up: `Ver`   :eyes: `Modificar`:writing_hand: `Borrar`  :x:
-
+## 
 ## !🔌 Instala dependencias:
 
-Debes tener instalado `composer`  una vez hayas clonado el proyecto, ejecutar el comando:
+Debes tener instalado `composer`  una vez clonado el proyecto, ejecutar el comando:
 
 ### `composer install`
 Este comando crea la carpeta vendor que contiene bundles y códigos de terceros.
